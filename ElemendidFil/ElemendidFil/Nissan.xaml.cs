@@ -30,12 +30,12 @@ namespace ElemendidFil
                 new Rectangle(220, 440, 120, 60)
             );
             absoluteLayout.Children.Add(
-                btn1 = new Button { Text = "Больше", FontSize = 20, BackgroundColor = Color.FromHex("#3366FF") },
+                btn1 = new Button { Text = "Больше", FontSize = 20, BackgroundColor = Color.FromHex("#ff3370") },
                 new Rectangle(20, 300, 120, 50)
             );
             btn1.Clicked += Btn1_Clicked;
             absoluteLayout.Children.Add(
-                btn2 = new Button { Text = "История", FontSize = 20, BackgroundColor = Color.FromHex("#3366FF") },
+                btn2 = new Button { Text = "История", FontSize = 20, BackgroundColor = Color.FromHex("#ff3370") },
                 new Rectangle(20, 400, 120, 50)
             );
             btn2.Clicked += Btn2_Clicked;

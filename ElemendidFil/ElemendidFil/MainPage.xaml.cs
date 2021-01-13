@@ -12,7 +12,7 @@ namespace ElemendidFil
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainPage : ContentPage
     {
-        public MainPage() //
+        public MainPage() 
         {
             BackgroundColor = Color.White;
             Button Audi_btn = new Button { Text = "Audi", BackgroundColor = Color.LightSkyBlue, Margin = 10, Padding = 10 };
